@@ -8,5 +8,19 @@
 </head>
 <body>
     <h2>珂珂是天线宝宝</h2>
+    <script>
+        var arr = ['red','skyblue','pink','purple','yellow'];
+        var p = document.querySelector("p");
+        var i = 0 ;
+            
+            setInterval(function(){
+                if(i == arr.length){
+                    i =0;
+                }
+                p.style.color =arr[i]
+                i++;
+                
+        },500)
+    </script>
 </body>
 </html>
